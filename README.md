@@ -1,7 +1,7 @@
 ﻿# 234703_NguyenThaiHao
 
 ## 1. Gioi thieu
-Ung dung quan ly sach tren nen tang web.
+Ung dung quan ly trang thiet bi phong hoc.
 
 ## 2. Cong nghe
 - Frontend: React
