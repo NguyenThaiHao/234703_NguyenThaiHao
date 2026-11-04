@@ -107,21 +107,6 @@ input:focus {
   border-color: #2563eb;
 }
 
-textarea,
-select {
-  border: 1px solid #d8e0eb;
-  border-radius: 8px;
-  padding: 12px 14px;
-  font: inherit;
-  background: white;
-}
-
-textarea:focus,
-select:focus {
-  outline: none;
-  border-color: #2563eb;
-}
-
 .btn {
   border: none;
   border-radius: 8px;
@@ -210,20 +195,6 @@ tbody tr:hover {
   font-weight: 600;
   color: #172b4d;
 }
-
-.status {
-  display: inline-block;
-  border-radius: 999px;
-  padding: 5px 9px;
-  font-size: 12px;
-  font-weight: 600;
-  white-space: nowrap;
-}
-
-.status-Dang-su-dung { background: #dcfce7; color: #166534; }
-.status-Hu-hong { background: #fee2e2; color: #991b1b; }
-.status-Dang-sua-chua { background: #fef3c7; color: #92400e; }
-.status-Ngung-su-dung { background: #e2e8f0; color: #475569; }
 
 .actions-heading {
   text-align: center;
