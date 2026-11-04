@@ -9,7 +9,7 @@ const cors = require("cors");
 const mongoose = require("mongoose");
 
 const connectDB = require("./config/db");
-const bookRoutes = require("./routes/bookRoutes");
+const deviceRoutes = require("./routes/deviceRoutes");
 
 const app = express();
 
@@ -34,8 +34,8 @@ app.get("/health", (req, res) => {
   });
 });
 
-// API quản lý sách
-app.use("/api/books", bookRoutes);
+// API quản lý thiết bị phòng học
+app.use("/api/devices", deviceRoutes);
 
 // Xử lý endpoint không tồn tại
 app.use((req, res) => {
